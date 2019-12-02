@@ -4,8 +4,16 @@ class CubeCalculator{
   }
 }
 
-object CubeCalculator extends CubeCalculator with App {
+object CubeCalculator extends CubeCalculator {
 
-  println(cube(4))
+
+
+    def main(args: Array[String]) = {
+
+     println(cube(4))
+
+      Console.println("[total ms]")
+
+  }
 
 }
